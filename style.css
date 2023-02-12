@@ -1,0 +1,41 @@
+/*PSEUDO-CLASSES*/
+a:hover{
+    font-size: 25px;
+}
+div:hover{
+    background: red;
+}
+
+/*primeiro filho*/
+p:first-child{
+    border: 1px solid black;
+}
+
+/*ultimo filho*/
+p:last-child{
+    border: 1px solid red;
+}
+
+/* selecionar impares*/
+p:nth-child(odd){
+    background: blue;
+}
+
+/*selecionar pares*/
+p:nth-child(even){
+    background: red;
+}
+
+
+/*PSEUDO-ELEMENTOS*/
+
+/*toda primeira letra grande*/ 
+P::first-letter{
+    font-size: 25px;
+}
+
+/*toda primeira linha grande*/ 
+p::first-line{
+    font-size: 25px;
+}
+
